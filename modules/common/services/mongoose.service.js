@@ -12,6 +12,7 @@ const connectWithRetry = () => {
         console.log('MongoDB is connected')
     }).catch(err => {
         console.log('MongoDB connection unsuccessful, retry after 5 seconds. ');
+        console.log('The following error occured: ' + err);
         setTimeout(connectWithRetry, 5000)
     })
 };
