@@ -1,5 +1,4 @@
 const mongoose = require('mongoose');
-const env = require('../config/env.config')
 
 const connectWithRetry = () => {
     console.log('MongoDB connection with retry')

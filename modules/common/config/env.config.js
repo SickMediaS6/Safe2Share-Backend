@@ -9,12 +9,5 @@ module.exports = {
         "NORMAL_USER": 1,
         "PAID_USER": 4,
         "ADMIN": 2048
-    },
-    "azure": {
-        COSMODDB_USER = "safe2share",
-        COSMOSDB_PASSWORD = "zPVlA8gb430wGk11NkgyRlQ3RSmxRbKdxqZ3ucb16LMjAikcscDfFdsa38xJG07z3A3ecPiK09uD7aDbbP5tNw==",
-        COSMOSDB_DBNAME = "@safe2share@",
-        COSMOSDB_HOST= "safe2share.mongo.cosmos.azure.com",
-        COSMOSDB_PORT=10255
     }
 };
