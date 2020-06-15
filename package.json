@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,7 @@
   "homepage": "https://github.com/SickMediaS6/Safe2Share-Backend#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
     "express": "^4.8.7",
     "jsonwebtoken": "^7.3.0",
     "moment": "^2.17.1",

@@ -4,6 +4,7 @@ const config = require('./modules/common/config/env.config.js');
 const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
+const env = require('dotenv').config();
 
 const AuthorizationRouter = require('./modules/auth/routes.config');
 const UsersRouter = require('./modules/users/routes.config');
@@ -26,6 +27,4 @@ AuthorizationRouter.routesConfig(app);
 UsersRouter.routesConfig(app);
 
 
-app.listen(config.port, function () {
-    console.log('app listening at port %s', config.port);
-});
+app.listen(process.env.PORT, '0.0.0.0');

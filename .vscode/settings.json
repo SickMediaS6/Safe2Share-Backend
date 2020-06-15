@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/e172e467-5cbb-4388-a53f-11067c08af64/resourceGroups/Safe2Share/providers/Microsoft.Web/sites/Safe2Share",
+    "appService.deploySubpath": "."
+}
