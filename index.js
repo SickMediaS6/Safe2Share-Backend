@@ -6,6 +6,8 @@ const app = express();
 const bodyParser = require('body-parser');
 const env = require('dotenv').config();
 
+const port = process.env.PORT || 1337;
+
 const AuthorizationRouter = require('./modules/auth/routes.config');
 const UsersRouter = require('./modules/users/routes.config');
 
@@ -27,4 +29,4 @@ AuthorizationRouter.routesConfig(app);
 UsersRouter.routesConfig(app);
 
 
-app.listen(process.env.PORT, '0.0.0.0');
+app.listen(port)
